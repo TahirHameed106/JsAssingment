@@ -1,0 +1,52 @@
+/* chap3.css */
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+  color: #333;
+  padding: 2rem;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Link Styling */
+a {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #0078D4;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Hover Effects */
+a:hover {
+  background-color: #005a9e;
+  transform: scale(1.05);
+}
+
+/* Responsive Typography */
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
+    font-size: 16px;
+  }
+
+  a {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
